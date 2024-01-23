@@ -21,3 +21,4 @@ function total(...theNumbers) {
 	}
 	return sum
 }
+
