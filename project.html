@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\project.css">
+    <title>Word Guessing Game</title>
+</head>
+<body>
+    <nav>
+        <ul id="menu">
+          <li><a id="toggleMenu">&equiv;</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="w01-task.html">W1 Task</a></li>
+          <li><a href="w03-task.html">W3 Task</a></li>
+          <li><a href="w04-task.html">W4 Task</a></li>
+          <li><a href="w05-task.html">W5 Task</a></li>
+          <li><a href="project.html" class="active">Project</a></li>
+        </ul>
+    </nav>
+    <main> 
+        <div class="container">
+            <div id="logo-box"> 
+                <img id="logo" src="images\Screenshot 2024-02-15 12.40.34 PM.png" alt="WordFairly Logo">
+            </div>
+            <h1>Welcome to WordFairly!</h1>
+            <h4>Your Favorite Word Guessing Game</h4>
+            <div id="game-container"></div>
+            
+            <section id="instructions">
+                <p>This interactive and engaging game challenges you to guess a randomly selected word.
+                Here's how to play:</p>
+
+                <br> <span class="bold">Start the Game:</span>
+                <ul>Click the "Play" button.</ul>
+                <ul>Click the "Submit Guess" button to make a guess.</ul>
+                <ul>Enter a word of the same length as the secret word.</ul>
+                
+                <span class="bold">Hints:</span>
+                <ul>The game provides hints after each guess.</ul>
+                <ul>Correctly guessed letters are revealed in the hint.</ul>
+                <ul>Letters that occur at the same position in the secret word are uppercase in the hint.</ul>          
+                <ul>Incorrect letters are represented by underscores.</ul>
+
+                <span class="bold">Guess Limit:</span>
+                <ul>You have a maximum of 10 guesses to reveal the secret word.</ul>
+
+                <span class="bold">Winning:</span>
+                <ul>If you correctly guess the entire word within the limit, you win!</ul>
+                <ul>The game displays the number of guesses and the time spent.</ul>
+
+                <span class="bold">Losing:</span>
+                <ul>If you reach the guess limit without guessing the word, the game ends.</ul>
+                <ul>The correct word is revealed</ul>
+                
+                <span class="bold">Start a New Game:</span>
+                <ul>To start a new game, click the "Restart" button or refresh the page.</ul>
+                <br>Enjoy the challenge of deciphering the secret word and test your word-guessing skills!</p>
+                <div id="button-box">
+                    <button onclick="" id="play">Play</button>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        &copy;<span id="year">2024</span> | Week 06 - Final Project | CSE 121b
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts\project.js"></script>
+</body>
+</html>

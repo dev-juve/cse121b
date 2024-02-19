@@ -1,0 +1,430 @@
+
+[
+    {
+      "word": "buy",
+      "grammaticalFunction": "verb",
+      "additionalDetail": "This word is an action indicating the act of purchasing something."
+    },
+    {
+      "word": "John",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "run",
+      "grammaticalFunction": "verb",
+      "additionalDetail": "This word is an action indicating the act of moving rapidly on foot."
+    },
+    {
+      "word": "Emma",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "book",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word is a physical or digital publication containing written or printed material."
+    },
+    {
+      "word": "David",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "jump",
+      "grammaticalFunction": "verb",
+      "additionalDetail": "This word is an action indicating the act of leaping off the ground."
+    },
+    {
+      "word": "Sophia",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "music",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the art of combining sounds in a way that is pleasant to the ear."
+    },
+    {
+      "word": "Robert",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "sleep",
+      "grammaticalFunction": "verb",
+      "additionalDetail": "This word is an action indicating the state of rest in which the body is inactive and the mind is unconscious."
+    },
+    {
+      "word": "Lily",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "build",
+      "grammaticalFunction": "verb",
+      "additionalDetail": "This word is an action indicating the act of constructing something."
+    },
+    {
+      "word": "Alexander",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "water",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the clear liquid that forms the seas, lakes, rivers, and rain."
+    },
+    {
+      "word": "Olivia",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "fire",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the state of combustion, producing light and heat."
+    },
+    {
+      "word": "Daniel",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "house",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a building for human habitation, typically one that is lived in by a family or small group of people."
+    },
+    {
+      "word": "Ava",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "friend",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a person with whom one has a bond of mutual affection, typically one exclusive of sexual or family relations."
+    },
+    {
+      "word": "Michael",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "computer",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to an electronic device for storing and processing data, typically in binary form, according to instructions given to it in a variable program."
+    },
+    {
+      "word": "Sophie",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "picture",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a painting or drawing."
+    },
+    {
+      "word": "Matthew",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "watch",
+      "grammaticalFunction": "verb",
+      "additionalDetail": "This word is an action indicating the act of looking at or observing attentively over a period of time."
+    },
+    {
+      "word": "Emily",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "listen",
+      "grammaticalFunction": "verb",
+      "additionalDetail": "This word is an action indicating the act of giving one's attention to a sound."
+    },
+    {
+      "word": "William",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "sun",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the star around which the earth orbits, providing light and heat for life on earth."
+    },
+    {
+      "word": "Ella",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "moon",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the natural satellite of the earth."
+    },
+    {
+      "word": "James",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "earth",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the third planet from the sun in the solar system, the only celestial body known to support life."
+    },
+    {
+      "word": "Emma",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "ocean",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a very large expanse of sea, in particular, each of the main areas into which the sea is divided geographically."
+    },
+    {
+      "word": "Benjamin",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "tree",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a woody perennial plant, typically having a single stem or trunk, supporting branches and leaves."
+    },
+    {
+      "word": "Mia",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "mountain",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a large landform that rises prominently above its surroundings, typically having a peak or summit."
+    },
+    {
+      "word": "Ethan",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "wind",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the natural movement of the air, especially in the form of a current of air blowing from a particular direction."
+    },
+    {
+      "word": "Grace",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "game",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a form of play or sport, especially a competitive one played according to rules and decided by skill, strength, or luck."
+    },
+    {
+      "word": "Daniel",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "idea",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a thought or suggestion as to a possible course of action."
+    },
+    {
+      "word": "Aiden",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "dream",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a series of thoughts, images, and sensations occurring in a person's mind during sleep."
+    },
+    {
+      "word": "Isabella",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "space",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the vast, seemingly infinite expanse that exists beyond the earth's atmosphere."
+    },
+    {
+      "word": "Lucas",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "time",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to the indefinite continued progress of existence and events in the past, present, and future."
+    },
+    {
+      "word": "Sophia",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "apple",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a round fruit with red or green skin and a whitish interior."
+    },
+    {
+      "word": "Liam",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "USA",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its diverse culture, technological advancements, and vast landscapes."
+    },
+    {
+      "word": "Eva",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "banana",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a long curved fruit that grows in clusters and has soft pulpy flesh and yellow skin when ripe."
+    },
+    {
+      "word": "Mason",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "China",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its rich history, cultural heritage, and vast population."
+    },
+    {
+      "word": "car",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a road vehicle, typically with four wheels, powered by an internal combustion engine and able to carry a small number of people."
+    },
+    {
+      "word": "Harper",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "India",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its diverse culture, vibrant traditions, and large population."
+    },
+    {
+      "word": "train",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a series of connected railroad cars moved by a locomotive or by integral motors."
+    },
+    {
+      "word": "Abigail",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "Russia",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its vast land area, diverse landscapes, and rich cultural history."
+    },
+    {
+      "word": "plane",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a powered flying vehicle with fixed wings and a weight greater than that of the air it displaces."
+    },
+    {
+      "word": "Henry",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "Brazil",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its vibrant festivals, diverse ecosystems, and passionate culture."
+    },
+    {
+      "word": "bird",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a warm-blooded egg-laying vertebrate distinguished by the possession of feathers, wings, and a beak."
+    },
+    {
+      "word": "Oliver",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "Canada",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its vast landscapes, friendly people, and multicultural cities."
+    },
+    {
+      "word": "fish",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a limbless cold-blooded vertebrate animal with gills and fins living wholly in water."
+    },
+    {
+      "word": "Amelia",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "Japan",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its unique blend of tradition and modernity, advanced technology, and rich cultural heritage."
+    },
+    {
+      "word": "dog",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a domesticated carnivorous mammal, typically loyal and often kept as a pet or for work."
+    },
+    {
+      "word": "Elijah",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "France",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its art, fashion, cuisine, and rich history."
+    },
+    {
+      "word": "cat",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws."
+    },
+    {
+      "word": "Aria",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a woman."
+    },
+    {
+      "word": "Germany",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its engineering prowess, rich history, and cultural contributions."
+    },
+    {
+      "word": "horse",
+      "grammaticalFunction": "noun",
+      "additionalDetail": "This word refers to a large domesticated mammal used for riding, racing, and as a beast of burden."
+    },
+    {
+      "word": "Logan",
+      "grammaticalFunction": "person's name",
+      "additionalDetail": "The person is a man."
+    },
+    {
+      "word": "Australia",
+      "grammaticalFunction": "country",
+      "additionalDetail": "This country is known for its unique wildlife, vast landscapes, and vibrant cities."
+    }
+]
+  
+  
