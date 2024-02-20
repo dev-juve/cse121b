@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles\project.css">
+    <!--<link rel="stylesheet" href="styles\main.css">-->
     <title>Word Guessing Game</title>
 </head>
 <body>
     <nav>
-        <ul id="menu">
-          <li><a id="toggleMenu">&equiv;</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="w01-task.html">W1 Task</a></li>
-          <li><a href="w03-task.html">W3 Task</a></li>
-          <li><a href="w04-task.html">W4 Task</a></li>
-          <li><a href="w05-task.html">W5 Task</a></li>
-          <li><a href="project.html" class="active">Project</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="w01-task.html">W1 Task</a>
+        <a href="w03-task.html">W3 Task</a>
+        <a href="w04-task.html">W4 Task</a>
+        <a href="w05-task.html">W5 Task</a>
+        <a href="project.html" class="active">Project</a>
     </nav>
     <main> 
         <div class="container">
@@ -24,7 +22,9 @@
                 <img id="logo" src="images\Screenshot 2024-02-15 12.40.34 PM.png" alt="WordFairly Logo">
             </div>
             <h1>Welcome to WordFairly!</h1>
+            <hr style="width:70%; margin-top:-10px; border-width: 2px;">
             <h4>Your Favorite Word Guessing Game</h4>
+            <hr style="width:50%; margin-top: -10px; margin-bottom: 20px; border-width: 2px;">
             <div id="game-container"></div>
             
             <section id="instructions">
@@ -32,29 +32,30 @@
                 Here's how to play:</p>
 
                 <br> <span class="bold">Start the Game:</span>
-                <ul>Click the "Play" button.</ul>
-                <ul>Click the "Submit Guess" button to make a guess.</ul>
-                <ul>Enter a word of the same length as the secret word.</ul>
+                <ul> <li>Click the "Play" button.</li></ul>
+                <ul><li>Click the "Submit Guess" button to make a guess.</li></ul>
+                <ul><li>Enter a word of the same length as the secret word.</li></ul>
                 
                 <span class="bold">Hints:</span>
-                <ul>The game provides hints after each guess.</ul>
-                <ul>Correctly guessed letters are revealed in the hint.</ul>
-                <ul>Letters that occur at the same position in the secret word are uppercase in the hint.</ul>          
-                <ul>Incorrect letters are represented by underscores.</ul>
+                <ul><li>The game provides hints after each guess.</li></ul>
+                <ul><li>Correctly guessed letters are revealed in the hint.</li></ul>
+                <ul><li>Letters that occur at the same position in the secret word are uppercase in the hint.</li></ul>          
+                <ul><li>Incorrect letters are represented by underscores.</li></ul>
 
                 <span class="bold">Guess Limit:</span>
-                <ul>You have a maximum of 10 guesses to reveal the secret word.</ul>
+                <ul><li>You have a maximum of 10 guesses to reveal the secret word.</li></ul>
 
                 <span class="bold">Winning:</span>
-                <ul>If you correctly guess the entire word within the limit, you win!</ul>
-                <ul>The game displays the number of guesses and the time spent.</ul>
+                <ul><li>If you correctly guess the entire word within the limit, you win!</li></ul>
+                <ul><li>The game displays the number of guesses and the time spent.</li></ul>
 
                 <span class="bold">Losing:</span>
-                <ul>If you reach the guess limit without guessing the word, the game ends.</ul>
-                <ul>The correct word is revealed</ul>
+                <ul><li> Secret word is revealed</li></ul>
+                <ul><li>If you reach the guess limit without guessing the word, the game ends.</li></ul>
+                <ul><li> correct word is revealed</li></ul>
                 
                 <span class="bold">Start a New Game:</span>
-                <ul>To start a new game, click the "Restart" button or refresh the page.</ul>
+                <ul><li>To start a new game, click the "Restart" button or refresh the page.</li></ul>
                 <br>Enjoy the challenge of deciphering the secret word and test your word-guessing skills!</p>
                 <div id="button-box">
                     <button onclick="" id="play">Play</button>

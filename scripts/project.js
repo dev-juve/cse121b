@@ -91,6 +91,7 @@ const aside = document.createElement("aside");
 const main = document.querySelector("main");
 const title = document.createElement("h1");
 title.textContent = "Hints & Tips";
+title.style.marginBottom = "20px";
 aside.appendChild(title);
 main.appendChild(aside);
 
@@ -136,18 +137,22 @@ function submitGuess() {
     
     // Add content to aside
     let para = document.createElement("p");
+    let para2 = document.createElement("p");
+    para.style.marginBottom = "12px";
+    para2.style.color = "yellow";
+    para2.style.marginBottom = "12px";
     para.textContent = `Previous hint: ${hints[counter-1]} => You answered: ${guess}`;
     aside.appendChild(para);
     
     if (counter === 4)
     {
-      para.textContent = `The secret word is a ${wordFunction}.`;
-      aside.appendChild(para);
+      para2.textContent = `The secret word is a ${wordFunction}.`;
+      aside.appendChild(para2);
     }
     else if (counter === 9)
     {
-      para.textContent = `${wordDetail}.`;
-      aside.appendChild(para);
+      para2.textContent = `${wordDetail}.`;
+      aside.appendChild(para2);
     }
     else if (counter === 10)
     {
@@ -158,6 +163,8 @@ function submitGuess() {
       document.getElementById("guess").remove();
       document.getElementById("submitButton").remove();
       document.getElementById("time").textContent = `Time spent: ${timeSpent}`;
+      para.textContent = `The secret word was ${secretWord}.`;
+      aside.appendChild(para);
     }
     
     main.appendChild(aside);
