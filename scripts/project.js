@@ -102,8 +102,7 @@ function submitGuess() {
   // Format the guess
   const guessInput = document.getElementById("guess");
   const guess = guessInput.value.trim().toLowerCase();
-  // Increment the counter
-  counter++
+  
   // Make some functional check to the guess 
   if (guess.length === 0) {
     alert("Please enter a guess.");
@@ -113,6 +112,9 @@ function submitGuess() {
     alert(`Please enter a ${secretWord.length} letters guess.`);
     return;
   }
+
+  // Increment the counter
+  counter++
 
   // Show the aside after the first guess
   if (counter === 1) {
@@ -151,7 +153,7 @@ function submitGuess() {
     }
     else if (counter === 9)
     {
-      para2.textContent = `${wordDetail}.`;
+      para2.textContent = `${wordDetail}`;
       aside.appendChild(para2);
     }
     else if (counter === 10)
@@ -163,7 +165,12 @@ function submitGuess() {
       document.getElementById("guess").remove();
       document.getElementById("submitButton").remove();
       document.getElementById("time").textContent = `Time spent: ${timeSpent}`;
-      para.textContent = `The secret word was ${secretWord}.`;
+      if (wordFunction === "person's name" || wordFunction === "country")
+      {
+        secretWord = secretWord.toUpperCase();
+      }
+      para.innerHTML = `The secret word was <span id="colored">${secretWord}</span>.`;
+      document.getElementById("colored").style.color = "lightgreen";
       aside.appendChild(para);
     }
     
